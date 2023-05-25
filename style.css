@@ -169,7 +169,7 @@ nav ul li:hover::after {
     width: 100%;
 }
 
-.show{
+.länk{
 	font-family: "Arapey";
 	color: #242424;
 	text-decoration: none;

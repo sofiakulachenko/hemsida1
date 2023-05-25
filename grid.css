@@ -1,0 +1,19 @@
+.container{
+    display: grid;
+    grid-gap:3px;
+    grid-template-columns: repeat(auto-fit,minax(100px,1fr));
+    grid-auto-rows: 75px;
+}
+
+.horizontal{
+
+}
+
+.vertical{
+
+
+}
+
+.big{
+    
+}
