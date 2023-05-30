@@ -191,6 +191,7 @@ nav ul li:hover::after {
 
 .a{
 	border-bottom: 8px solid darkcyan;
+  margin-bottom: 75px;
 }
 
 .textstor{
@@ -212,6 +213,11 @@ text-align: center;
 	margin-right: 10%;
 }
 
+.box img:hover{
+  scale:110%;
+  
+
+}
 
 
 

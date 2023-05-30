@@ -1,19 +1,39 @@
-.container{
+.box{
     display: grid;
-    grid-gap:3px;
-    grid-template-columns: repeat(auto-fit,minax(100px,1fr));
-    grid-auto-rows: 75px;
+grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-auto-rows: 200px;
+    grid-auto-flow: dense;
+    margin-left: 10%;
+    margin-right: 10%;
+    grid-gap: 5px;
+    overflow: hidden;
+}
+
+.box img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition: all 0.3s;
 }
 
 .horizontal{
-
+grid-column: span 2 ;
+overflow: hidden;
 }
 
 .vertical{
-
+grid-row: span 2;
+overflow: hidden;
 
 }
 
 .big{
-    
+grid-column: span 2;
+grid-row: span 2;
+overflow: hidden;
+}
+
+.nomal{
+    overflow: hidden;
 }
